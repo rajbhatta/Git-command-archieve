@@ -23,3 +23,8 @@ git push origin branch_name -f
 ```js
 git branch -a 
 ```
+
+### 5. How to correct commit message ###
+```js
+
+```
