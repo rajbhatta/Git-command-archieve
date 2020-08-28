@@ -24,7 +24,17 @@ git push origin branch_name -f
 git branch -a 
 ```
 
-### 5. How to correct commit message ###
+### 5. How to delete a git commit using rebase ###
 ```js
+1. HEAD ~1 (Where ~1 represents the last one commit from the head).
+2. Head ~2 ( where ~2 represetns the last two commit from the head).
+
+git reabase -i HEAD~3 (where i represents the interactive).
+
+It will open in the vim edition. Press i to goto insert mode
+
+change pick 18c2(sample commit number) to Drop 18c2
+
+Type Esc:wq
 
 ```
