@@ -38,3 +38,12 @@ change pick 18c2(sample commit number) to Drop 18c2
 Type Esc:wq
 
 ```
+
+### How to rename git branch ###
+```js
+git branch -m newName
+
+git push origin :oldName newName
+
+Note: if we create a PR then name of the branch will be there.
+```
