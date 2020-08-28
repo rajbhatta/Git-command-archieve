@@ -39,7 +39,7 @@ Type Esc:wq
 
 ```
 
-### How to rename git branch ###
+### 6. How to rename git branch ###
 ```js
 git branch -m newName
 
