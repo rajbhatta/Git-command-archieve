@@ -3,7 +3,7 @@
 git push origin --delete branch_name
 ```
 
-### 2. How to merge remote branch? ###
+### 2. How to merge a remote branch? ###
 Let us consider we do have develop(running inside IDE) and master(located inside remote git)
 ```js
 git checkout master
@@ -19,12 +19,12 @@ git reset commit-number(get commit number from log)
 git push origin branch_name -f
 ```
 
-### 4. How to list all branch in gitHub? ###
+### 4. How to list all branches in gitHub? ###
 ```js
 git branch -a 
 ```
 
-### 5. How to delete a git commit using rebase? ###
+### 5. How to delete a git branch using rebase? ###
 ```js
 1. HEAD ~1 (Where ~1 represents the last one commit from the head).
 2. Head ~2 ( where ~2 represetns the last two commit from the head).
