@@ -47,3 +47,8 @@ git push origin :oldName newName
 
 Note: if we create a PR then name of the branch will be there.
 ```
+
+### 7. How to resolve git issue authenticity of host can't be resolved ###
+```js
+ssh -o StrictHostKeyChecking=no git@github.com
+```
